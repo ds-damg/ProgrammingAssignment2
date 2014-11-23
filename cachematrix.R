@@ -1,8 +1,11 @@
-## Put comments here that give an overall description of what your
-## functions do
+## These two functions, enables caching of the inverse of a matrix.
+## The first one saves creates and saves the matrix while 
+## the second function computes for the inverse. In case the 
+## inverse has been computed, the second function just returns the saved
+## inverse matrix.
 
 ## makeCacheMatrix is a function that creates a matrix that contains function
-## to set/get value of the matrix, set.get the inverse of the matrix
+## to set/get value of the matrix, set/get the inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
  m <- NULL
